@@ -1,5 +1,6 @@
 {
     "dockerFile": "Dockerfile",
+    "postCreateCommand": "poetry install",
     "extensions": [
         "ms-python.python",
         "ryanluker.vscode-coverage-gutters"
